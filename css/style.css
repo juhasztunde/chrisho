@@ -24,13 +24,13 @@ body {
 }
 
 a {
-  color: #11bdb9;
+  color: #970500;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #f1d8e0;
+  color: #970500;
   outline: none;
 }
 
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #qbootstrap-header .navbar-brand {
-    color: #f1d8e0 !important;
+    color: #970500 !important;
   }
   #qbootstrap-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -86,15 +86,15 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #qbootstrap-header #navbar li a:hover {
-    color: #f1d8e0 !important;
+    color: #970500 !important;
   }
   #qbootstrap-header #navbar li a span:before {
     background: transparent !important;
+
   }
   #qbootstrap-header #navbar li.active a {
     background: transparent;
-    background: none;
-    color: #11bdb9 !important;
+    color: #970500 !important;
   }
   #qbootstrap-header #navbar li.active a span:before {
     visibility: visible;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #11bdb9;
+  background-color: #970500;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #11bdb9;
+  color: #970500;
 }
 #qbootstrap-header #navbar li.active a span:before {
   visibility: visible;
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-header.navbar-fixed-top {
   position: fixed !important;
-  background: #11bdb9;
+  background: #970500;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #qbootstrap-header.navbar-fixed-top .navbar-brand {
-  color: #11bdb9;
+  color: #970500;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -186,12 +186,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li a:hover {
-  color: #11bdb9;
+  color: #970500;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #11bdb9;
+  color: #970500;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #qbootstrap-header .navbar-default .brand-slogan em {
-  color: #11bdb9;
+  color: #970500;
   font-style: normal;
 }
 #qbootstrap-header a {
@@ -248,11 +248,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .section-heading.colored .svg {
-  fill: #f1d8e0;
+  fill: #970500;
 }
 .section-heading h2 {
   font-size: 80px;
-  color: #11BDB9;
+  color: #970500;
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
@@ -501,7 +501,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-slider-hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
-  background: #11bdb9;
+  background: #970500;
 }
 #qbootstrap-slider-hero .flexslider .flex-direction-nav {
   display: none;
@@ -605,7 +605,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
-  background: #f1d8e0 !important;
+  background: #970500 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -621,7 +621,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-couple h3 {
   font-size: 34px;
   font-family: "Merci Heart Brush", cursive;
-  color: #f1d8e0;
+  color: #970500;
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-couple h3 {
@@ -629,7 +629,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-couple span {
-  color: #f1d8e0;
+  color: #970500;
   letter-spacing: 10px;
   text-transform: uppercase;
   font-size: 14px;
@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-couple .amp-center {
   font-size: 60px;
   margin-top: 100%;
-  color: #f1d8e0;
+  color: #970500;
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-couple .amp-center {
@@ -647,7 +647,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-couple .amp-center .colored .svg {
-  fill: #f1d8e0;
+  fill: #970500;
 }
 
 .qbootstrap-bg {
@@ -765,7 +765,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 .couple .desc h2 {
-  color: #11BDB9;
+  color: #970500;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -913,7 +913,7 @@ h1, h2, h3, h4, h5, h6 {
 .timeline-title {
   margin-top: 0;
   font-size: 34px;
-  color: #11bdb9;
+  color: #970500;
   margin-bottom: 30px;
 }
 
@@ -976,7 +976,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-testimonials {
-  background: #f1d8e0;
+  background: #970500;
   z-index: 0;
 }
 #qbootstrap-testimonials .overlay {
@@ -1051,7 +1051,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #f1d8e0;
+  background: #970500;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1167,7 +1167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wedding-events .desc h3 {
   font-size: 40px;
-  color: #f1d8e0;
+  color: #970500;
   display: block;
   margin-bottom: 40px;
 }
@@ -1194,7 +1194,7 @@ h1, h2, h3, h4, h5, h6 {
 .wedding-events .desc .icon i {
   color: #fff;
   padding: 15px;
-  background: #f1d8e0;
+  background: #970500;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1282,7 +1282,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-started .btn {
   height: 54px;
   border: none !important;
-  background: #f1d8e0;
+  background: #970500;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1391,7 +1391,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   height: 2px;
   width: 30px;
-  background: #f1d8e0;
+  background: #970500;
 }
 #qbootstrap-press .qbootstrap-press-item .qbootstrap-press-img {
   position: absolute;
@@ -1417,7 +1417,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .qbootstrap-nav-toggle.active i::before, .qbootstrap-nav-toggle.active i::after {
-  background: #f1d8e0;
+  background: #970500;
 }
 .qbootstrap-nav-toggle:hover, .qbootstrap-nav-toggle:focus, .qbootstrap-nav-toggle:active {
   outline: none;
@@ -1431,18 +1431,18 @@ h1, h2, h3, h4, h5, h6 {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #f1d8e0;
+  color: #970500;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #f1d8e0;
+  background: #970500;
   transition: all .2s ease-out;
 }
 .qbootstrap-nav-toggle i::before, .qbootstrap-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #f1d8e0;
+  background: #970500;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1549,17 +1549,17 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #11bdb9d6;
+  background: #970500;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #f1d8e0;
+  background: #970500;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #11bdb9 !important;
+  background: #970500 !important;
   color: #fff;
   outline: none !important;
 }
@@ -1596,11 +1596,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
 }
 .social li a.social-box {
-  background: #f1d8e0;
+  background: #970500;
   color: #fff;
 }
 .social li a.social-circle {
-  background: #f1d8e0;
+  background: #970500;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1611,11 +1611,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #393e46 !important;
 }
 .social.social-box a {
-  background: #f1d8e0;
+  background: #970500;
   color: #fff;
 }
 .social.social-circle a {
-  background: #11BDB9;
+  background: #970500;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1674,7 +1674,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #f1d8e0#f1d8e0;
+  border-color: #970500;
 }
 
 .js .animate-box {
@@ -1719,7 +1719,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
     h1, h2, h3, h4, h5, h6 {
-    color: #f1d8e0;
+    color: #970500;
     font-family: "Merci Heart Brush", cursive;
     font-weight: 400;
 }
@@ -1730,7 +1730,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-testimonials .section-heading h2 {
-    color: #11BDB9;
+    color: #970500;
 }
 
 .couple.groom:after {
@@ -1744,7 +1744,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #qbootstrap-started .section-heading h2 {
-    color: #11BDB9;
+    color: #970500;
 }
 
 #headerpic {
@@ -1770,7 +1770,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     content: " ";
     width: 1px;
-    border-right: 1px dashed #11BDB9;
+    border-right: 1px dashed #970500;
     left: 50%;
     margin-left: 0px
     }
@@ -1953,6 +1953,9 @@ height: 100%;
   width:100%;
   height:280px;
 }
+
+
+
 
 @font-face {
 font-family: "Merci Heart Brush";
