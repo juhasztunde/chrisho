@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", "Merci Heart Brush" Arial, sans-serif;
+  font-family: "Merci Heart Brush", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;
@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
   color: #fff;
-  font-family: "Source Sans Pro", "Merci Heart Brush" Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
-  font-family: "Source Sans Pro", "Merci Heart Brush" Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.5);
