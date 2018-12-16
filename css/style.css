@@ -1965,3 +1965,39 @@ s
 }
 @font-face{font-family:'FontAwesome';src: url('../fonts/Merci Heart Brush.ttf?v=4.2.0')}
 
+
+
+
+
+  @media screen and (max-width: $screen-sm) {
+    #navbar {
+      li {
+        a {
+          color: rgba(255,255,255)!important;
+          @include transition(.3s);
+          &:hover {
+            color: $brand-primary!important;
+          }
+          span {
+            &:before {
+              background: transparent!important;
+            }
+          }
+        }
+        &.active {
+          a {
+            background: transparent;
+            background: none;
+            color: $brand-primary!important;
+            span {
+              &:before {
+                visibility: visible;
+                -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
