@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #970500 !important;
   }
   #qbootstrap-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(255, 255, 255, 1) !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -137,6 +137,8 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+  color: #fff;
+
 }
 #qbootstrap-header #navbar li a:hover {
   color: #fff;
@@ -1791,6 +1793,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header {
     position: fixed;
     background-color: black;
+    color:white;
   }
 
   /* Testimonials Section
@@ -1967,37 +1970,3 @@ s
 
 
 
-
-
-  @media screen and (max-width: $screen-sm) {
-    #navbar {
-      li {
-        a {
-          color: rgba(255,255,255)!important;
-          @include transition(.3s);
-          &:hover {
-            color: $brand-primary!important;
-          }
-          span {
-            &:before {
-              background: transparent!important;
-            }
-          }
-        }
-        &.active {
-          a {
-            background: transparent;
-            background: none;
-            color: $brand-primary!important;
-            span {
-              &:before {
-                visibility: visible;
-                -webkit-transform: scaleX(1);
-                transform: scaleX(1);
-              }
-            }
-          }
-        }
-      }
-    }
-  }
